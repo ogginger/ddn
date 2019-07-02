@@ -1,3 +1,3 @@
 #!/bin/bash
 
-run "--name ddn -v /home/josh/ddn/ddn/:/home/ddn/ -it -p 80:80" ddn
+run "--name ddn -v /home/josh/ddn/ddn/ddn/:/home/ddn/ -v /home/josh/ddn/content/:/home/content/ -it -p 80:80" ddn
