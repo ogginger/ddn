@@ -1,3 +1,7 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 run "--name ddn -v /home/josh/ddn/ddn/ddn/:/home/ddn/ -v /home/josh/ddn/content/:/home/content/ -it -p 80:80" ddn
+=======
+run "--name ddn -v /home/josh/ddn/content/:/home/content/ -it -p 80:80" ddn
+>>>>>>> 231ac6d5b920cb04db57b0c80058bc7538461785
